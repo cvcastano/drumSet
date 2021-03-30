@@ -1,0 +1,45 @@
+html {
+  background: url("../media/background.jpg") center no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.key {
+  border: 0.2rem solid;
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  padding: 1rem;
+  transition: all 0.07s ease;
+  background: rgba(255, 255, 255, 0.8);
+  min-width: 3rem;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 1rem;
+}
+kbd {
+  display: block;
+  line-height: 1.5rem;
+}
+.icon {
+  width: 50px;
+}
+@media (max-width: 400px) {
+  .key {
+    padding: 0.5rem;
+  }
+}
+@media (max-height: 400px) {
+  .key {
+    padding: 0.5rem;
+  }
+}
