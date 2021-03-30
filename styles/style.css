@@ -33,12 +33,6 @@ kbd {
 .icon {
   width: 50px;
 }
-.input {
-  width: 170px;
-  background: none;
-  color: #ffffff00; 
-}
-
 @media (max-width: 400px) {
   .key {
     padding: 0.5rem;
